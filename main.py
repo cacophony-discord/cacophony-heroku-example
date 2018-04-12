@@ -3,6 +3,7 @@ import os
 
 from cacophony.app import CacophonyApplication
 
+
 def main():
     """Launch the bot with plugins."""
     plugins = ['reverse', 'chattymarkov']
@@ -13,6 +14,7 @@ def main():
         database=os.environ.get('CACOPHONY_DATABASE', 'sqlite://'),
         plugins=plugins)
     bot.run()
+
 
 if __name__ == "__main__":
     main()
