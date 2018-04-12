@@ -1,0 +1,2 @@
+git+git://github.com/cacophony-discord/cacophony.git
+git+git://github.com/cacophony-discord/cacophony-plugin-chattymarkov.git
